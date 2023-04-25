@@ -1,0 +1,182 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+nav{
+    background-color: rgb(10, 202, 236);
+    background-size: cover;
+    height: 8%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+nav ul{ 
+    margin-bottom: 0;
+}
+
+nav ul a{
+    list-style: none;
+    text-decoration: none;
+    color: black;
+}
+
+.navegador{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    gap: 10px;
+    font-size: 20px;
+    color: black;
+    list-style: none;
+    padding: 20px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.juegos_seccion{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-self: flex-end;
+    background-color: black;
+    padding-bottom: 100px;
+    justify-content: center;
+    align-items: center;
+}
+
+.juegos_titulo{
+    margin-top: 20px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+
+}
+
+hr{
+    opacity: 1;
+    width: 100%;
+}
+
+.juegos{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center; /* Centra horizontalmente */
+    align-items: center; /* Centra verticalmente */
+    gap: 20px;/* Ajusta la altura al 100% de la pantalla */
+    padding-top: 50px;
+}
+
+.cajas{
+    display: flex;
+    gap: 150px;
+    color: white;
+    width: 70%;
+    justify-content: center;
+    align-items: center;
+    height: 20%;
+    height: 30%;
+}
+
+
+img{
+    display: flex;
+    object-fit: cover;
+    position: relative;
+    height: 50%;
+    width: 50%;
+    border-radius: 5px;
+}
+
+#contenedor{
+    height: 500px;
+    display: flex;
+    background-color: brown;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.juegazos{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    background-size: cover;
+    align-items: center;
+    border: 5px solid black;
+    justify-content: center;
+    width: 50%;
+    background-color: blue;
+    color: white;
+    font-size: 30px;
+    gap: 20px;
+}
+
+.btn{
+    display: flex;
+    align-self: flex-end;
+    width: 50%;
+}
+
+.card-body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    text-align: center;
+}
+
+img{
+    display: flex;
+    position: relative;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+}
+
+#modalBtn{
+    display: flex;
+    align-self: auto;
+    width: 5%;
+    height: 60%;
+    object-fit: cover;
+    justify-content: center;
+    background-size: cover;
+    margin-right: 20px;
+    padding: 0;
+    border: solid 2px black;
+
+}
+
+.imagen{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.boton{
+    display: flex;
+    align-self: flex-end;
+    width: 20%;
+    height: 60%;
+    object-fit: cover;
+    justify-content: center;
+    background-size: cover;
+    padding: 0;
+    border: solid 2px black;
+}
+
+.modal-footer{
+    flex-wrap: nowrap;
+}
