@@ -1,0 +1,7 @@
+[{"indice":"a", "nombre": "God of War", "id": "1" , "precio" : 7000, "imagen": "./assets/juego1.webp", "cantidad": 1},
+ {"indice":"b", "nombre": "Uncharted", "id": "2" , "precio" : 8000, "imagen": "./assets/Juego2.jpg", "cantidad": 1},
+ {"indice":"c", "nombre": "Control", "id": "3" , "precio" : 6000, "imagen": "./assets/Juego3.jpg", "cantidad": 1},
+ {"indice":"d", "nombre": "Modern Warfare", "id": "4" , "precio" : 9000, "imagen": "./assets/Juego4.avif", "cantidad": 1},
+ {"indice":"e", "nombre": "Ghost", "id": "5" , "precio" : 10000, "imagen": "./assets/Juego 5.jpg", "cantidad": 1},
+ {"indice":"f", "nombre": "Farcry", "id": "6" , "precio" : 5000, "imagen": "./assets/Juego6.jpg", "cantidad": 1}
+]
